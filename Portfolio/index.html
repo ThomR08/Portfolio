@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Alan Ramírez - Técnico en Desarrollo de Software. Portafolio profesional.">
+    <title>Alan Ramírez | Software Developer</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Work+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- ============================================
+         NAVIGATION BAR
+         ============================================ -->
+    <nav>
+        <a href="#" class="logo">AR</a>
+        <ul class="nav-links">
+            <li><a href="#about">Sobre mí</a></li>
+            <li><a href="#projects">Proyectos</a></li>
+            <li><a href="#skills">Habilidades</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+        <!-- Mobile Menu Button -->
+        <button class="mobile-menu-btn" aria-label="Menú">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+
+    <!-- ============================================
+         HERO SECTION
+         ============================================ -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="profile-image-container">
+                <img src="./Media/profile_img.jpg" alt="Alan Ramírez" class="profile-image">
+            </div>
+            
+            <p class="subtitle">Desarrollador de Software</p>
+            <h1>Alan Thomas<br>Ramírez Vargas</h1>
+            <p class="tagline">Organization, information, and time.</p>
+            <p class="hero-description">
+                Técnico en Desarrollo de Software proactivo y determinado, con enfoque colaborativo. 
+                En búsqueda de oportunidades para enfrentar proyectos desafiantes, mejorar continuamente 
+                mis habilidades y alcanzar nuevos niveles profesionales.
+            </p>
+            <a href="#contact" class="cta-button">Trabajemos juntos</a>
+        </div>
+    </section>
+
+    <!-- ============================================
+         ABOUT SECTION
+         ============================================ -->
+    <section id="about" class="about-section">
+        <h2>Sobre mí</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>
+                    Soy un desarrollador de software apasionado por crear soluciones elegantes y funcionales. 
+                    Mi enfoque se centra en escribir código limpio, mantenible y escalable, siempre buscando 
+                    las mejores prácticas en cada proyecto.
+                </p>
+                <p>
+                    Actualmente me encuentro en formación en Campuslands, donde he desarrollado proyectos que
+                    abarcan desde bases de datos relacionales (MySQL) y NoSQL (MongoDB), desarrollo backend con 
+                    Java y Python, hasta interfaces de usuario modernas y responsivas con HTML, CSS y JavaScript.
+                </p>
+                <p>
+                    Mi filosofía de trabajo se basa en tres pilares fundamentales: organización en cada 
+                    etapa del desarrollo, información actualizada y relevante, y gestión eficiente del tiempo 
+                    para cumplir objetivos sin sacrificar calidad.
+                </p>
+            </div>
+            
+            <div class="competencies">
+                <div class="competency-item">
+                    <h3>Liderazgo</h3>
+                    <p>Capacidad para guiar equipos hacia objetivos comunes</p>
+                </div>
+                <div class="competency-item">
+                    <h3>Creatividad</h3>
+                    <p>Soluciones innovadoras a problemas complejos</p>
+                </div>
+                <div class="competency-item">
+                    <h3>Adaptabilidad</h3>
+                    <p>Flexibilidad ante nuevas tecnologías y desafíos</p>
+                </div>
+                <div class="competency-item">
+                    <h3>Comunicación</h3>
+                    <p>Expresión clara de ideas técnicas y colaboración efectiva</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         PROJECTS SECTION
+         ============================================ -->
+    <section id="projects" class="projects-section">
+        <h2>Proyectos</h2>
+        <p class="section-intro">
+            Una selección de proyectos que demuestran mi experiencia en diferentes tecnologías 
+            y áreas del desarrollo de software.
+        </p>
+        
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="Media/MongoDB.png" alt="CampusMusic Project">
+                </div>
+                <div class="project-content">
+                    <div class="project-number">01</div>
+                    <h3>CampusMusic</h3>
+                    <p class="project-date">Campuslands • Noviembre 2024</p>
+                    <p class="project-description">
+                        Sistema de gestión integral para una escuela de música desarrollado con MongoDB. 
+                        Implementa administración completa de estudiantes, cursos, profesores, instrumentos 
+                        y reservas, con consultas avanzadas y control de roles.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">MongoDB</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">Database Design</span>
+                    </div>
+                    <a href="https://github.com/SharickGPinto/PROYECTO_CAMPUS_MUSIC_S1_RamirezAlan_PintoSharick" class="project-link" target="_blank" rel="noopener">
+                        Ver proyecto →
+                    </a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="./Media/MySQL.png" alt="Pizzería MySQL Project">
+                </div>
+                <div class="project-content">
+                    <div class="project-number">02</div>
+                    <h3>Pizzería MySQL</h3>
+                    <p class="project-date">Campuslands • Septiembre 2024</p>
+                    <p class="project-description">
+                        Base de datos relacional completa para una pizzería con modelado ER exhaustivo. 
+                        Incluye gestión de clientes, pedidos, ingredientes y empleados con consultas SQL 
+                        optimizadas, vistas, funciones y procedimientos almacenados.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">MySQL</span>
+                        <span class="tech-tag">SQL</span>
+                        <span class="tech-tag">Database Modeling</span>
+                    </div>
+                    <a href="https://github.com/ThomR08/pizzeria-don-piccolo" class="project-link" target="_blank" rel="noopener">
+                        Ver proyecto →
+                    </a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="./Media/Kario_Media.png" alt="Kario Media Project">
+                </div>
+                <div class="project-content">
+                    <div class="project-number">03</div>
+                    <h3>Kario Media</h3>
+                    <p class="project-date">Campuslands • Julio 2024</p>
+                    <p class="project-description">
+                        Desarrollo frontend del panel administrativo de Kario Media, replicando fielmente 
+                        el UI/UX proporcionado. Implementación de módulos de gestión, navegación intuitiva, 
+                        accesibilidad y diseño responsive usando HTML y CSS nativo.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML5</span>
+                        <span class="tech-tag">CSS3</span>
+                        <span class="tech-tag">Responsive Design</span>
+                    </div>
+                    <a href="https://github.com/ThomR08/PROYECTO-FILTRO_RAMIREZALAN_NINOANGEL" class="project-link" target="_blank" rel="noopener">
+                        Ver proyecto →
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         SKILLS SECTION
+         ============================================ -->
+    <section id="skills" class="skills-section">
+        <h2>Habilidades</h2>
+        <p class="section-intro">
+            Tecnologías y herramientas con las que trabajo para crear soluciones robustas y escalables.
+        </p>
+
+        <div class="skills-container">
+            <!-- Frontend Skills -->
+            <div class="skill-category">
+                <h3>Frontend</h3>
+                <div class="skill-list">
+                    <div class="skill-item">
+                        <div class="skill-icon"></div>
+                        <span class="skill-name">HTML5</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon"></div>
+                        <span class="skill-name">CSS3</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon"></div>
+                        <span class="skill-name">JavaScript</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Backend Skills -->
+            <div class="skill-category">
+                <h3>Backend</h3>
+                <div class="skill-list">
+                    <div class="skill-item">
+                        <div class="skill-icon"></div>
+                        <span class="skill-name">Python</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon"></div>
+                        <span class="skill-name">Java</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon"></div>
+                        <span class="skill-name">Spring Boot</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Database Skills -->
+            <div class="skill-category">
+                <h3>Bases de Datos</h3>
+                <div class="skill-list">
+                    <div class="skill-item">
+                        <div class="skill-icon"></div>
+                        <span class="skill-name">MySQL</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon"></div>
+                        <span class="skill-name">MongoDB</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tools & Methodologies -->
+            <div class="skill-category">
+                <h3>Metodologías y Herramientas</h3>
+                <div class="skill-list">
+                    <div class="skill-item">
+                        <div class="skill-icon"></div>
+                        <span class="skill-name">Scrum</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon"></div>
+                        <span class="skill-name">Git & GitHub</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon"></div>
+                        <span class="skill-name">Responsive Design</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         CONTACT SECTION
+         ============================================ -->
+    <section id="contact" class="contact-section">
+        <h2>Contacto</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <p class="section-intro">
+                    ¿Tienes un proyecto en mente? Me encantaría conocer más sobre tu idea y 
+                    cómo puedo ayudarte a hacerla realidad.
+                </p>
+
+                <div class="contact-item">
+                    <span class="contact-label">Email</span>
+                    <a href="mailto:thomasramirez0806@gmail.com" class="contact-value">
+                        thomasramirez0806@gmail.com
+                    </a>
+                </div>
+                
+                <div class="contact-item">
+                    <span class="contact-label">Ubicación</span>
+                    <span class="contact-value">Bucaramanga, Santander, Colombia</span>
+                </div>
+                
+                <div class="contact-item">
+                    <span class="contact-label">GitHub</span>
+                    <a href="https://github.com/ThomR08" target="_blank" rel="noopener" class="contact-value">
+                        github.com/ThomR08
+                    </a>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <label for="name">Nombre</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Mensaje</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                
+                <button type="submit" class="submit-button">Enviar mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- ============================================
+         FOOTER
+         ============================================ -->
+    <footer>
+        <div class="social-links">
+            <!-- ⚠️ EDITAR: Actualiza los links con tus URLs reales -->
+            <a href="https://github.com/ThomR08" target="_blank" rel="noopener">GitHub</a>
+            <a href="mailto:thomasramirez0806@gmail.com">Email</a>
+        </div>
+        <p>&copy; 2025 Alan Ramírez. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
